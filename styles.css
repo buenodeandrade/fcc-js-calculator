@@ -1,0 +1,86 @@
+$button: #FFFFFF;
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+@font-face {font-family: "Digital";
+    src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+    src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7") format("svg");
+}
+
+#app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background: #c2c2d6;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
+}
+
+.calculator {
+  border: 2px solid #47476b;
+  border-radius: 50px;
+  padding: 5px; 
+  background: #06114F;
+  width: 320px; 
+  height: 640px;
+  position: relative;
+}
+
+.formulaScreen {
+  min-height: 80px;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  color: #5EC5D4;
+  text-align: right;
+  vertical-align: text-top;
+  margin: 30px 0 0 0;
+  line-height: 20px;
+  overflow-wrap: break-word;
+  word-wrap: break-word; 
+}
+
+.outputScreen {
+  font-size: 80px;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #F6F7A9;
+  text-align: right;
+  line-height: 120px;
+}
+
+button {
+  position: relative;
+  margin: 7px;
+  height: 65px;
+  width: 65px;
+  color: #F6F7A9;
+  outline: 1px solid black;
+  border-radius: 50px;
+  border: none;
+  background: #710096;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 30px;
+  cursor: default;
+  &:hover {
+    filter: brightness(120%);
+  }
+}
+
+.jumbi {
+  width: 145px;
+}
+
+.jumbo {
+  width: 225px;
+  font-size: 40px;
+  color: #06114F;
+}
